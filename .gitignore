@@ -118,3 +118,10 @@ tools/linux-capture/*.db
 tools/linux-capture/*.db-wal
 tools/linux-capture/*.db-shm
 tools/linux-capture/captures/
+
+# Secrets: never commit
+.env.*
+!.env.example
+
+# Claude Code local settings (may contain tokens)
+.claude/settings.local.json
